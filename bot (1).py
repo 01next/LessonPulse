@@ -24,8 +24,8 @@ from telegram.ext import (
 )
 
 # --- 1. НАСТРОЙКИ ---
-TOKEN = os.environ.get("BOT_TOKEN", "7841096806:AAHvUUSs1YUk2Y34JGWWSPfScRKGc9ud_NM")
-ADMIN_IDS_RAW = os.environ.get("ADMIN_IDS", "7841096806")
+TOKEN = os.environ.get("BOT_TOKEN", "")
+ADMIN_IDS_RAW = os.environ.get("ADMIN_IDS", "")
 ADMIN_IDS = [int(x.strip()) for x in ADMIN_IDS_RAW.split(",")]
 TEACHER_CODE = os.environ.get("TEACHER_CODE", "TEACHER2024")
 
